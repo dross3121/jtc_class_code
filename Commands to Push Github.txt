@@ -1,0 +1,7 @@
+***pushing to the repository(github)
+
+git add .
+
+git commit -m 'description of what im commiting to the repository'
+
+git push orgin master
