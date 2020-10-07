@@ -25,9 +25,9 @@ print('Question 2')
 # Congratulations! Your team is expanding. Below is a list of their names:
 names = ['Max Bartlett', 'Angelita Norris', 'Stewart Mueller', 'Dominique Henry', 'Carmela Gross', 'Bettie Mcmillan', 'Sara Ellison', 'Ira Anthony', 'Pauline Riley', 'Ben Weber',
          'Joanne Mcknight', 'Loren Gould', 'Jamar Singh', 'Amanda Vance', 'Tyrell Andrade', 'Jana Clements', 'Eddy Mcbride', 'Marsha Meyer', 'Elbert Shannon', 'Alyce Hull']
-for i in range(len(names)):
-	names[i] = names[i].lower()
-	print(names[i] + '@ripplemedia.com')
+for i in names:
+	print (i.lower().split())
+
 # emails = [ i + '@ripplemedia.com' ]
 # print(emails)
 
