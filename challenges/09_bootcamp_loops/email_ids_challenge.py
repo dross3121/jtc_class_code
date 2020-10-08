@@ -25,11 +25,6 @@ print('Question 2')
 # Congratulations! Your team is expanding. Below is a list of their names:
 names = ['Max Bartlett', 'Angelita Norris', 'Stewart Mueller', 'Dominique Henry', 'Carmela Gross', 'Bettie Mcmillan', 'Sara Ellison', 'Ira Anthony', 'Pauline Riley', 'Ben Weber',
          'Joanne Mcknight', 'Loren Gould', 'Jamar Singh', 'Amanda Vance', 'Tyrell Andrade', 'Jana Clements', 'Eddy Mcbride', 'Marsha Meyer', 'Elbert Shannon', 'Alyce Hull']
-for i in names:
-	print (i.lower().split())
-
-# emails = [ i + '@ripplemedia.com' ]
-# print(emails)
 
 
 # We want to convert all their names into the same format from Question 1
@@ -37,5 +32,15 @@ for i in names:
 # for hire in names:
 # 	print(names)
 # 	print(hire + '@ripplemedia.com')
+for name in names:
+	print(name)
+
 # 2.2 TODO: Inside the "for" loop, create the email id by re-using the logic from Question 1 and...
+	names_list2 = name.lower()
+	print(names_list2)
+	split_list = names_list2.split()
+	print(split_list)
+	joint_list = ".".join(split_list)
 # 2.3 TODO: ..add the email to the emails list
+	email_list = joint_list + '@ripplemedia.com'
+	print(email_list)
