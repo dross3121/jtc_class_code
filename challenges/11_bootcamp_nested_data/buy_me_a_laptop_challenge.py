@@ -105,7 +105,7 @@ print(laptops[0]['types'][1]['storage'])
 
 print("Question 3: listing all the prices")
 print("Time to look at the range of prices. Using a nested loops, print out all possible computer prices")
-
+# indiviually calling the prices of the laptops
 
 print(laptops[0]["types"][0]["price"])
     
@@ -119,6 +119,13 @@ print(laptops[1]['types'][1]['price'])
 
 
 # # TODO: print out all possible prices for the laptops
+# creating a for loop to retain the prices of all laptops
+laptops_price = []
+for laptop in laptops:
+   for laptop in laptop['types']:
+    for price in laptop['price']:
+        print(price)
+
 
 
 

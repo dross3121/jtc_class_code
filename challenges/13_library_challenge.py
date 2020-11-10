@@ -55,7 +55,7 @@ def search_by_name(book):
 # Search for the book 'JUST MERCY'
 
 search_by_name("JUST MERCY")
-search_by_name("how high")
+search_by_name("How High")
 
 print('Question 2')
 # Here's the same list of books, with additional details

@@ -27,9 +27,10 @@ for i in meats:
 
 		sandwiches.append(i + "&" + dog)
 
-		
-
 print(sandwiches)
+
+print(len(sandwiches))
+
 
 print('Question 3')
 # TODO: Let's create an input to take a customer order for a sandwich, for example: 'Ham & Swiss'
