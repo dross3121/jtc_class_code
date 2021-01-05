@@ -8,7 +8,7 @@ reddit = praw.Reddit(client_id= 'ScfP4NVD7_sRNw',
 				client_secret= "beIKb5OvO6dT1LapbUPfxec6q0v35Q", 
 				user_agent='<console: DOPEBOT:1.0>',
 				username= 'dope_boot',
-				password= "Baltimore365")
+				password= "GET_YOUR_OWN")
 
 love_ravens = ["Not bad for a running back. -Lamar Jackson",
 'Anytime somebody tells me I can’t do something, I’m going to do it. -Lamar Jackson', 
