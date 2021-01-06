@@ -14,6 +14,10 @@ love_ravens = ["Not bad for a running back. -Lamar Jackson",
 'Anytime somebody tells me I can’t do something, I’m going to do it. -Lamar Jackson', 
 "There was one school that stood by my side…That was the University of Louisville. -Lamar Jackson", 
 "Just an honor for the Ravens organization to believe in me. And all the teams that passed me up … there’s a lot that’s gonna come with that. -Lamar Jackson" ]
+hate_ravens = ["Ray Lewis is the best to ever do it", "Ed Reed is the best to ever do it", "Ravens need this win", "This is our year", "Lamar Jackson is only getting better", 'JK all the way',
+ 'Jimmy Smith', "We going Hollywood", "Ravens all the way!!!", "PLAYOFFS Babyyyyy"]
+
+we_the_best = love_ravens + hate_ravens
 
 
 #subreddit r/ravens   
@@ -30,13 +34,13 @@ for post in subreddit.hot(limit=10):
 			if 'love' in comment_lower:
 				print('................')
 				print(comment.body)
-				random_index = random.randint(0, len(love_ravens) -1)
+				random_index = random.randint(0, len(we_the_best) -1)
 				'''func to randomly select a quote from the love_ravens list'''
 
-				comment.reply(love_ravens[random_index])
+				comment.reply(we_the_best[random_index])
 				'''replying to subreddit comments'''
 				 
-				time.sleep(600)
+				time.sleep(540)
 				'''time delay 10 min so we don't look like a bot just speeding through comments'''
 
 		
